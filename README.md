@@ -15,8 +15,7 @@
 
 
 
-4.Ans => Arrow function হলো JavaScript‑এর একটি shorthand syntax যেখানে function keyword না লিখে ()=>{} দিয়ে ফাংশন লেখা যায়, আর এটি সাধারণত concise ও readable কোডের জন্য ব্যবহার হয়
-- Arrow function → shortcut, clean, বাইরের this ধরে |
+4.Ans => Arrow function হলো JavaScript‑এর একটি shorthand syntax যেখানে function keyword না লিখে ()=>{} দিয়ে ফাংশন লেখা যায়, আর এটি সাধারণত concise ও readable কোডের জন্য ব্যবহার হয়|  Arrow function → shortcut, clean, বাইরের this ধরে |
 
 
 
