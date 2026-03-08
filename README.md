@@ -23,6 +23,5 @@
 
 
 
-
 5.Ans => Template literals মানে হলো backtick দিয়ে লেখা string, যেখানে সহজে variable আর multi‑line text বসানো যায়
 
