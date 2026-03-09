@@ -50,7 +50,7 @@ const displayIssue = (datas) => {
            const issueDiv = document.createElement('div')
     issueDiv.innerHTML = `
         <div onclick="issueModal(${data.id})"  class=" bg-white px-5 py-5 rounded-md border-t-green-600 space-y-3 h-[100%]">
-            <div class="border-t-4 ${data.status == 'open' ? 'border-t-green-700':'border-t-purple-700' }">
+            <div class=" p-4 border-t-4 ${data.status == 'open' ? 'border-t-green-700':'border-t-purple-700' }">
                 <div class="flex justify-between items-center">
                     <p>${createIcon(data.status)}
                     <p class="">${createPriority(data.priority)}</p>
@@ -63,9 +63,8 @@ const displayIssue = (datas) => {
                 <br>
                 <hr>
                 <p>${data.author}</p>
-                <div class="flex gap-2">
+                <div class="">
                     <p>${data.createdAt}</p>
-                    <p>${data.updatedAt}</p>
                 </div>
            </div>
         </div>
